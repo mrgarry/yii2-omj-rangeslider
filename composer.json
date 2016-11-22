@@ -1,0 +1,22 @@
+{
+    "name": "omj/yii2-omj-rangeslider",
+    "description": "Asset bundle for (http://rangeslider.js.org/)",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Harijs",
+            "email": "harijs@harijs.lv"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/rangeslider": "~2.2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "omj\\": ""
+        }
+    }
+}
