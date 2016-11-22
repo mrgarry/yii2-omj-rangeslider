@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist omj/yii2-omj-rangeslider "*"
+php composer.phar require omj/yii2-omj-rangeslider "dev-master"
 ```
 
 or add
 
 ```
-"omj/yii2-omj-rangeslider": "*"
+"omj/yii2-omj-rangeslider": "dev-master"
 ```
 
 to the require section of your `composer.json` file.
