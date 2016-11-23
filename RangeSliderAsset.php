@@ -14,4 +14,7 @@ class RangeSliderAsset extends AssetBundle
     public $css = ['rangeslider.css'];
     public $js = ['rangeslider.js'];
     
+    public $depends = [
+        'yii\web\YiiAsset',
+    ];    
 }
